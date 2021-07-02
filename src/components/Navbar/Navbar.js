@@ -8,7 +8,7 @@ function Navbar() {
       <header>
         <div className="container">
           <nav className="navbar navbar-expand-lg">
-            <a className="navbar-brand" href="/">
+            <a className="navbar-brand" href="/ecommerce">
               Ecommerce
             </a>
             <button
@@ -25,19 +25,19 @@ function Navbar() {
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav mx-auto">
                 <li className="nav-item active">
-                  <a className="nav-link" href="/">
+                  <a className="nav-link" href="/ecommerce">
                     Home
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/additem">
+                  <a className="nav-link" href="/ecommerce/additem">
                     Add Item
                   </a>
                 </li>
               </ul>
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item active">
-                  <a className="nav-link" href="/cart">
+                  <a className="nav-link" href="/ecommerce/cart">
                     Cart : {cartData.cartItems.length}
                   </a>
                 </li>
